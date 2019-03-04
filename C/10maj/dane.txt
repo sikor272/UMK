@@ -1,0 +1,6 @@
+Jan Kowalski 14 4.07
+Adam Nowak 11 4.75
+Antoni Zygmund 16 5.11
+Dennis Ritchie 12 4.99
+Ryszard Stevens 22 4.4
+Anna Makowska 17 4.85

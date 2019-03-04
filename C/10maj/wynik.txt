@@ -1,0 +1,6 @@
+Antoni Zygmund 16 5.110000
+Dennis Ritchie 12 4.990000
+Anna Makowska 17 4.850000
+Adam Nowak 11 4.750000
+Ryszard Stevens 22 4.400000
+Jan Kowalski 14 4.070000

@@ -1,0 +1,19 @@
+W kraju zdawalo 293974 osob,
+W tym zdalo 208013 osob.
+W poszczegolnych wojewodztwach:
+1.dolnoslaskie zdalo 13063 osob.
+2.kujawsko-pomorskie zdalo 10990 osob.
+3.lubelskie zdalo 13166 osob.
+4.lubuskie zdalo 5170 osob.
+5.lodzkie zdalo 13256 osob.
+6.malopolskie zdalo 20629 osob.
+7.mazowieckie zdalo 30351 osob.
+8.opolskie zdalo 4783 osob.
+9.podkarpackie zdalo 13409 osob.
+10.podlaskie zdalo 7865 osob.
+11.pomorskie zdalo 11670 osob.
+12.slaskie zdalo 22530 osob.
+13.swietokrzyskie zdalo 7666 osob.
+14.warminsko-mazurskie zdalo 7470 osob.
+15.wielkopolskie zdalo 18144 osob.
+16.zachodniopomorskie zdalo 7851 osob.

@@ -1,0 +1,16 @@
+mazowieckie 42749 71
+slaskie 31733 71
+malopolskie 28259 73
+wielkopolskie 25921 70
+dolnoslaskie 18933 69
+podkarpackie 18886 71
+lubelskie 18809 70
+lodzkie 18671 71
+pomorskie 16437 71
+kujawsko-pomorskie 15479 71
+zachodniopomorskie 11719 67
+warminsko-mazurskie 10986 68
+swietokrzyskie 10798 71
+podlaskie 10774 73
+lubuskie 6987 74
+opolskie 6833 70
