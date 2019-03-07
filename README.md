@@ -14,7 +14,7 @@
 - Matematyka dyskretna (wyk: Witold Kraśkiewicz, ćw: Łukasz Matysiak)
 - Programowanie I (C,C++) (wyk: Jerzy Białkowski, ćw: Marcin Gąsiorek)
 - Systemy operacyjne (wyk: Zbigniew Szewczak, ćw: Krzysztof Czarkowski)
-- Środowiska obliczeń symbolicznych (ćw:Grzegorz Lewandowski)
+- Środowiska obliczeń symbolicznych (ćw: Grzegorz Lewandowski)
 
 ## Semestr 3
 - Analiza matematyczna I (wyk: Krzysztof Frączek, ćw: Piotr Kokocki)
@@ -30,3 +30,5 @@
 - Projekt bazodanowy (ćw: Mateusz Topolewski)
 - Python (wyk: Piotr Wiśniewski, ćw: Piotr Wiśniewski)
 - Język angielski (ćw: Renata Rychlicka)
+- Teoria języków formalnych (wyk: Kamila Barylska, ćw: Kamila Barylska)
+- Podstawy fizyki (wyk: Jakub Narębski, ćw: Jakub Narębski)
