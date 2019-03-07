@@ -25,7 +25,7 @@
 - Język angielski (ćw: Renata Rychlicka)
 
 ## Semestr 4
-- Programowanie II (C,C++) (wyk: Błażej Zyglarski, ćw: Jerzy Białkowski)
+- Programowanie III (wyk[JAVA]: Błażej Zyglarski, ćw[C#]: Jerzy Białkowski)
 - Laboratorium grafiki i multimediów (ćw: Bartosz Ziemkiewicz)
 - Projekt bazodanowy (ćw: Mateusz Topolewski)
 - Python (wyk: Piotr Wiśniewski, ćw: Piotr Wiśniewski)
