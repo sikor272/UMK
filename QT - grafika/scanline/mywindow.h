@@ -78,6 +78,7 @@ private:
     int pX = -1,pY = -1, lX, lY;
     // Deklaracje funkcji
     void rysujPiksel(int x, int y);
+    bool sprawdz(int x, int y);
     void czysc();
     void czysc2();
     void linia(QMouseEvent *event);

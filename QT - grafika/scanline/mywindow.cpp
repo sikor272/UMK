@@ -2,6 +2,8 @@
 #include "mywindow.h"
 #include <cmath>
 #include <QDebug>
+#include <vector>
+using namespace std;
 // Dolaczamy plik naglowkowy zawierajacy definicje GUI
 // Plik ten jest generowany automatycznie
 // z pliku XML "mywindow.ui"
@@ -654,7 +656,229 @@ void MyWindow::wielokat_mouse(QMouseEvent *event){
     }
     update();
 }
+bool MyWindow::sprawdz(int j, int i){
+    unsigned char *ptr;
+    ptr = img->bits();
+    if(ptr[szer*4*i + 4*j] == 0 && ptr[szer*4*i + 4*j + 1] == 0 &&  ptr[szer*4*i + 4*j + 2] == 0)
+        return true;
+    return false;
+}
+// Scan line
 void MyWindow::on_pushButton_clicked()
+{
+    kolor = 255;
+    unsigned char *ptr;
+    ptr = img->bits();
+    int i, j;
+    bool bylo;
+
+    // Z lewej
+    for(i=0; i<wys; i++)
+    {
+        bylo = false;
+        for(j=0; j<szer; j++)
+        {
+            if(j > 0 && !sprawdz(j,i) && sprawdz(j-1,i)){
+                bylo = !bylo;
+            }
+            if(bylo && !sprawdz(j,i)){
+                ptr[szer*4*i + 4*j + 1]=0;
+            }
+        }
+        if(bylo){
+            for(j = szer-1; j > 0 ;j--){
+                if(j > 0 && sprawdz(j,i) && !sprawdz(j-1,i)){
+                    bylo = !bylo;
+                }
+                if(!bylo && !sprawdz(j,i)){
+                    ptr[szer*4*i + 4*j + 1]=0;
+                }
+            }
+            for(j = szer-1; j > 0 ;j--){
+                if(sprawdz(j,i)){
+                    break;
+                }
+                rysujPiksel(j,i);
+
+            }
+            for(j = 0; j < szer ;j++){
+                if(sprawdz(j,i)){
+                    break;
+                }
+                rysujPiksel(j,i);
+            }
+        }
+    }
+    // Z gory
+    for(j=0; j<wys; j++)
+    {
+        bylo = false;
+        for(i=0; i<szer; i++)
+        {
+            if(i > 0 && !sprawdz(j,i) && sprawdz(j,i-1)){
+                bylo = !bylo;
+            }
+            if(bylo && !sprawdz(j,i)){
+                ptr[szer*4*i + 4*j + 2]=0;
+            }
+        }
+        if(bylo){
+            for(i = szer-1; i > 0 ;i--){
+                if(i > 0 && sprawdz(j,i) && !sprawdz(j,i-1)){
+                    bylo = !bylo;
+                }
+                if(!bylo && !sprawdz(j,i)){
+                    ptr[szer*4*i + 4*j + 2]=0;
+                }
+            }
+            for(i = szer-1; i > 0 ;i--){
+                if(sprawdz(j,i)){
+                    break;
+                }
+                rysujPiksel(j,i);
+
+            }
+            for(i = 0; i < szer ;i++){
+                if(sprawdz(j,i)){
+                    break;
+                }
+                rysujPiksel(j,i);
+
+            }
+        }
+    }
+    // Zamiana pokolorowanych
+    kolor = 255;
+    for(i=0;i<wys;i++){
+        for(j=0;j<szer;j++){
+            if(ptr[szer*4*i + 4*j + 1] == 0 && ptr[szer*4*i + 4*j + 2] == 0 && ptr[szer*4*i + 4*j] == 255){
+            }else{
+                if(!sprawdz(j,i))
+                rysujPiksel(j,i);
+            }
+
+        }
+    }
+    kolor = 0;
+    update();
+}
+
+
+/*void  MainWindow::scan(){
+ unsigned char *ptr = img->bits();
+
+
+
+
+    for(int y=0;y<499;y++){
+        bool maluje = false;
+        for(int x=0;x<499;x++){
+            if(!por(x,y,QColor(255,255,255))&&por(x-1,y,QColor(255,255,255))){
+                maluje=!maluje;
+            }
+            if(maluje && !por(x,y,QColor(255,255,255)))
+                ptr[500*4*y + 4*x + 1]=255;
+        }
+        if(maluje){
+            for(int x=499;x>0;x--){
+                if(
+                        por(x,y,QColor(255,255,255))
+                        &&
+                        !por(x-1,y,QColor(255,255,255))
+                        ){
+                    maluje=!maluje;
+                }
+                if(!maluje&& !por(x,y,QColor(255,255,255)))
+                    ptr[500*4*y + 4*x + 1]=255;
+            }
+            for(int x=499;x>0;x--){
+                if(por(x,y,QColor(255,255,255)))
+                    break;
+                maluj(x,y, QColor(0,0,0));
+            }
+
+
+            for(int x=0;x<499;x++){
+                if(por(x,y,QColor(255,255,255)))
+                    break;
+                maluj(x,y, QColor(0,0,0));
+            }
+        }
+    }
+
+
+
+    for(int x=0;x<499;x++){
+       bool maluje = false;
+        for(int y=0;y<499;y++){
+            if(
+                    !por(x,y,QColor(255,255,255))
+                    &&
+                    por(x,y-1,QColor(255,255,255))
+                    ){
+                maluje=!maluje;
+            }
+            if(maluje && !por(x,y,QColor(255,255,255)))
+                 ptr[500*4*y + 4*x + 2] = 255;
+       }
+         if(maluje){
+          for(int y=499;y>0;y--){
+              if(
+                      por(x,y,QColor(255,255,255))
+                      &&
+                      !por(x,y-1,QColor(255,255,255))
+                      ){
+                  maluje=!maluje;
+              }
+              if(!maluje&& !por(x,y,QColor(255,255,255)))
+                   ptr[500*4*y + 4*x + 2] = 255;
+
+          }
+
+             for(int y=499;y>0;y--){
+                 if(por(x,y,QColor(255,255,255)))
+                     break;
+                 maluj(x,y, QColor(0,0,0));
+             }
+
+
+             for(int y=0;y<499;y++){
+                 if(por(x,y,QColor(255,255,255)))
+                     break;
+                 maluj(x,y, QColor(0,0,0));
+             }
+
+         }
+
+    }
+
+
+    for(int y=0;y<499;y++){
+        for(int x=0;x<499;x++){
+            if(
+                    ptr[500*4*y + 4*x + 1] == 255
+                    &&
+                    ptr[500*4*y + 4*x + 2] == 255
+                    &&
+                    ptr[500*4*y + 4*x] == 0
+                    ){
+                maluj(x,y, QColor(255,255,0));
+            }else{
+                if(!por(x,y,QColor(255,255,255)))
+                maluj(x,y, QColor(0,0,0));
+            }
+
+        }
+    }
+
+
+
+
+    update();
+}
+/* Kopia
+ *
+ * void MyWindow::on_pushButton_clicked()
 {
     kolor = 120;
     unsigned char *ptr;
@@ -665,6 +889,7 @@ void MyWindow::on_pushButton_clicked()
     for(i=0; i<wys; i++)
     {
         x = -1;
+        y = -1;
         for(j=0; j<szer; j++)
         {
             if(ptr[szer*4*i + 4*j] == 0 && ptr[szer*4*i + 4*j + 1] == 0 &&  ptr[szer*4*i + 4*j + 2] == 0){
@@ -676,15 +901,18 @@ void MyWindow::on_pushButton_clicked()
                         x = j;
                     }
                     else {
+                        y = x;
                         x = -1;
                     }
                 }
             }
         }
-        if(x != -1){
-            prosta(x,i,szer,i);
+        if(x != -1 && y != -1){
+            prosta(x,i,y,i);
         }
     }
     kolor = 0;
     update();
 }
+ *
+ * */
