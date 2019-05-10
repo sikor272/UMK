@@ -74,13 +74,3 @@ if complete():
 	wypisz()
 else:
 	print "ROZWIAZANIE NIEMOZLIWE"
-
-
-
-
-
-
-
-
-
-
