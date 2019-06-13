@@ -1,0 +1,6 @@
+C:\Users\developer\source\repos\PierwszeZajecia\SumyPrzedzialu\obj\Debug\SumyPrzedzialu.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\SumyPrzedzialu\bin\Debug\SumyPrzedzialu.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\SumyPrzedzialu\bin\Debug\SumyPrzedzialu.exe
+C:\Users\developer\source\repos\PierwszeZajecia\SumyPrzedzialu\bin\Debug\SumyPrzedzialu.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\SumyPrzedzialu\obj\Debug\SumyPrzedzialu.exe
+C:\Users\developer\source\repos\PierwszeZajecia\SumyPrzedzialu\obj\Debug\SumyPrzedzialu.pdb

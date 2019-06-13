@@ -1,0 +1,7 @@
+C:\Users\developer\source\repos\PierwszeZajecia\Szyfrowanie\bin\Debug\Szyfrowanie.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\Szyfrowanie\bin\Debug\Szyfrowanie.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Szyfrowanie\bin\Debug\Szyfrowanie.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\Szyfrowanie\obj\Debug\Szyfrowanie.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Szyfrowanie\obj\Debug\Szyfrowanie.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Szyfrowanie\obj\Debug\Szyfrowanie.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\Szyfrowanie\obj\Debug\Szyfrowanie.csprojAssemblyReference.cache

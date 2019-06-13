@@ -1,0 +1,6 @@
+C:\Users\developer\source\repos\PierwszeZajecia\TabliczkaMnozenia\obj\Debug\TabliczkaMnozenia.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\TabliczkaMnozenia\bin\Debug\TabliczkaMnozenia.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\TabliczkaMnozenia\bin\Debug\TabliczkaMnozenia.exe
+C:\Users\developer\source\repos\PierwszeZajecia\TabliczkaMnozenia\bin\Debug\TabliczkaMnozenia.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\TabliczkaMnozenia\obj\Debug\TabliczkaMnozenia.exe
+C:\Users\developer\source\repos\PierwszeZajecia\TabliczkaMnozenia\obj\Debug\TabliczkaMnozenia.pdb

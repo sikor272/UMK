@@ -1,0 +1,7 @@
+D:\PierwszeZajecia\Srednie\bin\Debug\Srednie.exe.config
+D:\PierwszeZajecia\Srednie\bin\Debug\Srednie.exe
+D:\PierwszeZajecia\Srednie\bin\Debug\Srednie.pdb
+D:\PierwszeZajecia\Srednie\obj\Debug\Srednie.csprojAssemblyReference.cache
+D:\PierwszeZajecia\Srednie\obj\Debug\Srednie.csproj.CoreCompileInputs.cache
+D:\PierwszeZajecia\Srednie\obj\Debug\Srednie.exe
+D:\PierwszeZajecia\Srednie\obj\Debug\Srednie.pdb

@@ -1,0 +1,11 @@
+C:\Users\Dawid\Desktop\c#\Synchronizacja\obj\Debug\netcoreapp2.1\Synchronizacja.csprojAssemblyReference.cache
+C:\Users\Dawid\Desktop\c#\Synchronizacja\obj\Debug\netcoreapp2.1\Synchronizacja.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\Desktop\c#\Synchronizacja\obj\Debug\netcoreapp2.1\Synchronizacja.AssemblyInfoInputs.cache
+C:\Users\Dawid\Desktop\c#\Synchronizacja\obj\Debug\netcoreapp2.1\Synchronizacja.AssemblyInfo.cs
+C:\Users\Dawid\Desktop\c#\Synchronizacja\bin\Debug\netcoreapp2.1\Synchronizacja.deps.json
+C:\Users\Dawid\Desktop\c#\Synchronizacja\bin\Debug\netcoreapp2.1\Synchronizacja.runtimeconfig.json
+C:\Users\Dawid\Desktop\c#\Synchronizacja\bin\Debug\netcoreapp2.1\Synchronizacja.runtimeconfig.dev.json
+C:\Users\Dawid\Desktop\c#\Synchronizacja\bin\Debug\netcoreapp2.1\Synchronizacja.dll
+C:\Users\Dawid\Desktop\c#\Synchronizacja\bin\Debug\netcoreapp2.1\Synchronizacja.pdb
+C:\Users\Dawid\Desktop\c#\Synchronizacja\obj\Debug\netcoreapp2.1\Synchronizacja.dll
+C:\Users\Dawid\Desktop\c#\Synchronizacja\obj\Debug\netcoreapp2.1\Synchronizacja.pdb
