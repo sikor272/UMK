@@ -1,0 +1,39 @@
+﻿<Window x:Class="Plan.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Plan"
+        mc:Ignorable="d"
+        Title="Admin" Height="450" Width="300" MinHeight="450" MinWidth="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock 
+            Margin="50,5" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Panel Administratora" FontSize="20" Grid.Row="0" Grid.Column="0"/>
+        <Button Margin="25,5" Content="Wyświetl Plan" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="1" Width="200" FontSize="20" Click="Wyswietl"/>
+        <Button Margin="25,5" Content="Edytuj Przydzialy" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="2" Width="200" FontSize="20" Click="EdytujPrzydzialy"/>
+        <Button Margin="25,5" Content="Edytuj Plan" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="3" Width="200" FontSize="20" Click="EdytujPlan"/>
+        <Button Margin="25,5" Content="Edytuj Studentów" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="4" Width="200" FontSize="20" Click="EdytujStudenci"/>
+        <Button Margin="25,5" Content="Edytuj Pracowników" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="5" Width="200" FontSize="20" Click="EdytujPracownicy"/>
+        <Button Margin="25,5" Content="Edytuj Sale" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="6" Width="200" FontSize="20" Click="EdytujSale"/>
+        <Button Margin="25,5" Content="Edytuj Przedmioty" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="7" Width="200" FontSize="20" Click="EdytujPrzedmioty"/>
+        <Button Margin="25,5" Content="Edytuj Terminy" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="8" Width="200" FontSize="20" Click="EdytujTerminy"/>
+        <Button Margin="25,5" Content="Wyloguj" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="9" Width="200" FontSize="20" Click="Wyloguj"/>
+
+
+    </Grid>
+</Window>
