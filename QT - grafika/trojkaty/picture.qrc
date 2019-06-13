@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>dubaj.jpg</file>
+        <file>logo.jpg</file>
+    </qresource>
+</RCC>
