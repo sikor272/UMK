@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0EED3C77-C260-E32C-3EEE-1D51C03067ED" name="Pracownicy">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>D321C7BD-96B3-74E8-A8E3-4029D7BB23AC</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="3D418926-7AB9-214F-B842-5CCE64F34C8E">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>35E7815F-B92E-1DE2-D40B-E08F3641C109</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="B73C17DB-3FD7-3D95-8A79-6F1A77E5BB33">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>E267D60A-D7D7-AC16-1FA1-AA7C786982E1</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="79827A30-0180-E1CB-3238-1A6A65CBE933">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>D82B4388-B260-CDAC-D69F-7F08553DE45D</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tytul" id="4EF4A404-2AAE-C4D1-14ED-8BCDB8CEB2B8">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>88A3DC16-5F5C-7112-BA1F-C62396538035</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lokalny" id="DB6DF4CE-CD6D-E398-0BFD-FBFFD231CEFF">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>13010F9D-B5C3-534E-BE0B-99D2E2CF1928</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="887188C2-8E48-7DD8-AE3A-C0FBFCC66048" name="Pracownicy PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>DD9C00CF-79BB-F5F8-FA62-CAD1046856CC</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D418926-7AB9-214F-B842-5CCE64F34C8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

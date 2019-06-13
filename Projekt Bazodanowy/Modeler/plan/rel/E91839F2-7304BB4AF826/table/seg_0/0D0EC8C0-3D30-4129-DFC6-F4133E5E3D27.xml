@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D0EC8C0-3D30-4129-DFC6-F4133E5E3D27" name="Zjazdy">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>8022DF19-76FE-E699-9311-DDB7CAB9741F</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="55E32398-163A-F066-C348-8D149290185C">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>38BA917E-ACBD-B988-67FC-E026A3F4967E</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dzien" id="CE347022-98DC-F4CC-25AC-69F0D951B8E3">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>8DED24FA-8FC7-E18F-609C-68A7011B9A29</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9FD748A-1A56-E00D-2A2B-75071BA4CBB6" name="Zjazdy_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>7F8EFCB7-5E43-178D-FAA2-7B34DB0C3C24</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55E32398-163A-F066-C348-8D149290185C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

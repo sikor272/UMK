@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E85ADE15-A626-9897-7671-D1D205CF4CBA" name="Sale">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>EEED8A45-CA6E-6861-BEE9-68EC87112D9C</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="29677638-4293-3851-1E7C-D17B41F936D4">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>8BBCC86B-E054-273E-4D1A-EE521EDB7BA9</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="D575DD1A-47D8-7CF1-3DCE-312DE79B05AA">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>74CB2A9E-AAEF-D562-E158-216FD0E5B4DC</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7993ED65-1ED2-B356-FDDB-A049D7F74C5F" name="Sale_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>9F4922F3-9AD2-BD5C-4A78-F74A1FBF3605</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29677638-4293-3851-1E7C-D17B41F936D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

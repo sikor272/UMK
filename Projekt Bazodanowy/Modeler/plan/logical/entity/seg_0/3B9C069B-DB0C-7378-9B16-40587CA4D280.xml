@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B9C069B-DB0C-7378-9B16-40587CA4D280" name="PlanZajec">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>DC405124-650A-0D0E-9B1A-D43CCA94B660</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F9E07BF7-5C39-FADD-EE77-280C786399AC">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>FF457121-0B3D-5D07-D9F1-069C973E047A</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rozpoczecie" id="EB9563B0-EEDD-22E4-1A69-984A81E65FBF">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>3A020583-8BAC-CDF8-E0D2-A99368FC6185</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="koniec" id="5A1EA349-EED1-EC3F-1862-471E2A8760AB">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>5EA17E6E-2C0B-44C4-0281-F64EEC580FE2</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sale id" id="E3EB9A2A-7908-9C1D-3161-0F7C6048D18C">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>297D28DF-E5B9-A24C-7ADB-E680FBA18977</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<referedAttribute>67434476-DC8C-E12B-4127-8FE1FDBF6C06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zjazdy id" id="10ED0609-C568-3D47-4ADC-CC02F71C62A8">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>BC74065E-761A-BA35-15A2-A11F0B148ED6</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<referedAttribute>2311C321-28DB-1F21-4A30-0A3C72B676FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Przydzialy id" id="035F8E76-C1FF-3DAC-4DEA-C70F2C9CF384">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>FA37A752-155D-CB34-DCC1-917763D1F033</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<referedAttribute>8D667429-0E60-2C51-AE7D-7210F525F94D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="376DF9F0-6725-C3C2-45BE-09EDF3A7595C" name="PlanZajec PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>00DC38FA-868B-061E-A9E0-EEDA548F6097</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9E07BF7-5C39-FADD-EE77-280C786399AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

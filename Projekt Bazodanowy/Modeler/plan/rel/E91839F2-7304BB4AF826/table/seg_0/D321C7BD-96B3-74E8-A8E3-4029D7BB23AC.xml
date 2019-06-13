@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D321C7BD-96B3-74E8-A8E3-4029D7BB23AC" name="Pracownicy">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>2AAA24A3-29AD-7028-7BAE-380526EDA13A</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="35E7815F-B92E-1DE2-D40B-E08F3641C109">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>F8AB5200-9208-D5A2-D519-C7C6FC40B3CC</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="E267D60A-D7D7-AC16-1FA1-AA7C786982E1">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>FEC336F2-E51F-D9E3-9602-49C4AD1B0EF4</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="D82B4388-B260-CDAC-D69F-7F08553DE45D">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>268C90DD-2A7E-54A5-2E5C-A1D16E132829</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tytul" id="88A3DC16-5F5C-7112-BA1F-C62396538035">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>93E2FAE0-E2D1-C140-D44B-49FB6A0D27FF</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lokalny" id="13010F9D-B5C3-534E-BE0B-99D2E2CF1928">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>BACAAC43-91C6-003D-0F1E-EC20366AE923</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD9C00CF-79BB-F5F8-FA62-CAD1046856CC" name="Pracownicy_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>F2440311-A72C-E562-1B8D-6E28A972428D</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35E7815F-B92E-1DE2-D40B-E08F3641C109"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

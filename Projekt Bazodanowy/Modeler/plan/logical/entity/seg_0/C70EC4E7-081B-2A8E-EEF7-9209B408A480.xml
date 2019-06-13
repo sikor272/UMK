@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C70EC4E7-081B-2A8E-EEF7-9209B408A480" name="Przydzialy">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>D209FE19-A920-301F-A0F4-AD8608D5AAD9</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8D667429-0E60-2C51-AE7D-7210F525F94D">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>F8363B91-5FB5-27DA-CE21-AC8C2994307E</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProgramStudiow id" id="70F89F8E-2B8E-EBF3-ADEB-A2219DB51321">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>5EDBC66B-8CAD-350D-53A1-E12058573E6A</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<referedAttribute>51A41C23-8258-8FE2-B463-DCEA4857C44B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pracownicy id" id="7D9D5071-1BCF-9BD7-6CAA-04DE6922CB77">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>E3194C5A-A3B8-8488-7ECE-0C4B1D7A4F86</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<referedAttribute>3D418926-7AB9-214F-B842-5CCE64F34C8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grupy id" id="24D514A5-9C5F-CE3D-D61B-B020356281F9">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>EFFAD050-1D85-C8DA-67DF-3F250534E5CE</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<referedAttribute>FF61A689-A360-96CF-70B4-D4C59EBD9CEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1E5865F-45DA-9EB5-35D0-86C80D2D329D" name="Przydzialy PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>17D0809F-D1D0-286C-11B8-903461EE649C</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D667429-0E60-2C51-AE7D-7210F525F94D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

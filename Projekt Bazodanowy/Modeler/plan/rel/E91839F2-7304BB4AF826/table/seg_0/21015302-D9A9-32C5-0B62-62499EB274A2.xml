@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21015302-D9A9-32C5-0B62-62499EB274A2" name="Grupy">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>260BFD89-4C26-45E0-35AE-840EBC8360AA</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EF8FD9D1-F5FF-EAA2-9F0D-3BA533998DF4">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>9D3B3C2E-32A1-DD59-4243-64EA658A6CC3</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok" id="CA0EB60E-F338-F6F6-4F15-5C2CFE50FBDE">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>1D5A4F27-B24F-3631-A8E4-1A91BEBDDE62</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupa" id="0EF5150F-F243-8EAE-074F-874A1ED23479">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>36AF29FF-CD59-FC30-A472-8505EAAA4694</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F1A6B88-E8FF-6B06-0B75-926649CD154F" name="Grupy_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>528E9E04-10CE-5081-32CA-D50545C922C0</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF8FD9D1-F5FF-EAA2-9F0D-3BA533998DF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

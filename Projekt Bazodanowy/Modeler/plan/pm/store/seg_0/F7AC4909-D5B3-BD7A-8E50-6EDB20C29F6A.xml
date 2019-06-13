@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InfoStore class="oracle.dbtools.crest.model.design.process.InfoStore" name="Plan zajęć" directorySegmentName="seg_0" id="F7AC4909-D5B3-BD7A-8E50-6EDB20C29F6A">
+<createdBy>student</createdBy>
+<createdTime>2019-03-05 13:36:15 UTC</createdTime>
+<ownerDesignName>plan</ownerDesignName>
+<rdbmsSite>Oracle Database 11g</rdbmsSite>
+<selfDescribing>false</selfDescribing>
+<skipRecords>0</skipRecords>
+<type>RDBMS</type>
+</InfoStore>

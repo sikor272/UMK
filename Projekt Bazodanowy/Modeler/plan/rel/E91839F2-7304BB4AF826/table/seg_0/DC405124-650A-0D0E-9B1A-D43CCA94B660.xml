@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC405124-650A-0D0E-9B1A-D43CCA94B660" name="PlanZajec">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>6EDBD956-7E0A-02AB-6E44-B554CAB435B7</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FF457121-0B3D-5D07-D9F1-069C973E047A">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:27:39 UTC</createdTime>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rozpoczecie" id="3A020583-8BAC-CDF8-E0D2-A99368FC6185">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>FEE96306-BF4F-B673-5363-0848578C4D16</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="koniec" id="5EA17E6E-2C0B-44C4-0281-F64EEC580FE2">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>0CA2108A-A54E-CE80-16A5-E8A2A7EEAD39</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sale_id" id="2F725495-FD14-CA92-E67B-C296E82E0B59">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>68BCB560-5BF7-BB87-7007-48C0974544FD</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13688FFE-EF85-1387-8A51-55CCC89F8F00" referredColumn="29677638-4293-3851-1E7C-D17B41F936D4"/>
+</associations>
+</Column>
+<Column name="Zjazdy_id" id="01E51C09-B333-D744-F11C-7D32F5DD4CB1">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>6BEEDAE8-4A02-D3DF-3859-4BDC5972E2C3</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28EB3F1B-1B93-FB15-9512-B6FC0CE90247" referredColumn="55E32398-163A-F066-C348-8D149290185C"/>
+</associations>
+</Column>
+<Column name="Przydzialy_id" id="730895C1-1908-82C9-0D9E-560784CFC18B">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>6840AD28-B934-FB4B-BC7F-9937FC034D72</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CEC575A-0B2D-BA1F-3D0E-71CBD738D1F2" referredColumn="F8363B91-5FB5-27DA-CE21-AC8C2994307E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00DC38FA-868B-061E-A9E0-EEDA548F6097" name="PlanZajec_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>3C81BDC7-DD18-C272-E1AA-24D19260A83A</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF457121-0B3D-5D07-D9F1-069C973E047A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9070DD0-0057-4DD0-2585-E6C065A07466" name="PlanZajec_Sale_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>04B6FE25-5ED2-4F1A-C744-FC4BDAAC7322</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F725495-FD14-CA92-E67B-C296E82E0B59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="608669CC-7025-EC17-841A-94953DDD886D" name="PlanZajec_Zjazdy_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>807A54DE-25EC-57D6-CEA5-512D84DD79E7</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01E51C09-B333-D744-F11C-7D32F5DD4CB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3227CDF-D37D-B6B4-C7EF-ADBB4FEFC8DC" name="PlanZajec_Przydzialy_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>1D3E5FD7-B6D3-BFAD-A9CF-F957ED62FDB7</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="730895C1-1908-82C9-0D9E-560784CFC18B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

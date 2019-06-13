@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PlanZajec_Przydzialy_FK" directorySegmentName="seg_0" id="FA37A752-155D-CB34-DCC1-917763D1F033">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>4CEC575A-0B2D-BA1F-3D0E-71CBD738D1F2</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<sourcePk>D1E5865F-45DA-9EB5-35D0-86C80D2D329D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C70EC4E7-081B-2A8E-EEF7-9209B408A480</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B9C069B-DB0C-7378-9B16-40587CA4D280</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,14 @@
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Algorytmy i struktury danych',30,1);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Algorytmy i struktury danych',30,2);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Bazy danych I',20,1);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Bazy danych I',20,2);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Budowa komputera',8,3);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Matematyka dla informatyków',60,4);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Podstawy programowania',30,1);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Podstawy programowania',34,2);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Programowanie I (C++)',30,1);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Programowanie I (C++)',30,2);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Wprowadzenie do systemów wielozadaniowych',15,1);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Wprowadzenie do systemów wielozadaniowych',20,2);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Systemy operacyjne',20,1);
+INSERT INTO ProgramStudiow(Nazwa,Ilosc_godzin,Typ_id) VALUES ('Systemy operacyjne',20,2);

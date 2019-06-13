@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D209FE19-A920-301F-A0F4-AD8608D5AAD9" name="Przydzialy">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>E2A6CB0A-6EF3-F76B-1506-343EB2B8540A</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F8363B91-5FB5-27DA-CE21-AC8C2994307E">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>31D6084C-CB2D-790D-A795-07148826F07D</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProgramStudiow_id" id="F3AC79B5-94FB-7824-FE82-CBDD2D9BB1AF">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>52396E20-BD00-254A-054F-81FFB8C4B1AD</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31809CB2-53E1-7FCF-B62A-B9479731E332" referredColumn="4AC087F6-0B73-8F96-2935-DED5A026B531"/>
+</associations>
+</Column>
+<Column name="Pracownicy_id" id="06C19B1A-020C-86B2-6814-1A4F32858821">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>617B0EDD-D95E-F87A-1F76-1B40628166A0</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56EAD68F-E004-4A1B-F661-05158DDDBDEB" referredColumn="35E7815F-B92E-1DE2-D40B-E08F3641C109"/>
+</associations>
+</Column>
+<Column name="Grupy_id" id="93092089-DB11-38BF-7AC6-938147384899">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>5B97E785-A857-A75A-94EB-4555B79DA5BC</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07AB7DC9-F078-4167-C9D5-6B1FCF405AA7" referredColumn="EF8FD9D1-F5FF-EAA2-9F0D-3BA533998DF4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17D0809F-D1D0-286C-11B8-903461EE649C" name="Przydzialy_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>D264F81C-D659-5050-BD4D-8D78D44CCDA0</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8363B91-5FB5-27DA-CE21-AC8C2994307E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D08808A8-3468-020C-661B-ED6FA9517052" name="Przydzialy_Grupy_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>4F429995-CF5E-D2F7-8362-1131BCFAB6A4</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93092089-DB11-38BF-7AC6-938147384899"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1379197-F113-DC7A-2335-6DC429C4A05F" name="Przydzialy_Pracownicy_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>9D168C41-BD21-1224-5FC5-BDDEA4E5D64A</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06C19B1A-020C-86B2-6814-1A4F32858821"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D46348E-69A9-4B86-0377-CA38EE3F8ADB" name="Przydzialy_ProgramStudiow_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-12 15:27:43 UTC</createdTime>
+<generatorID>07FEB4B2-F82C-1B43-F04F-B6C87377468E</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3AC79B5-94FB-7824-FE82-CBDD2D9BB1AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

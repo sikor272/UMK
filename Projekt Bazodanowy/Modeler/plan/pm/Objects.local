@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.ProcessModel>
+   <object objectType="InfoStore" objectID="095475E2-230F-7819-11FC-B7BFBD8E8EB4" name="Zjazdy" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="609E7E9B-0677-CA34-640F-025E57DA5181" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="6BE29C6C-4B54-B4D6-1328-51F40CA5F065" name="Przydzialy" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="609E7E9B-0677-CA34-640F-025E57DA5181" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="F7AC4909-D5B3-BD7A-8E50-6EDB20C29F6A" name="Plan zajęć" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="609E7E9B-0677-CA34-640F-025E57DA5181" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.process.ProcessModel>

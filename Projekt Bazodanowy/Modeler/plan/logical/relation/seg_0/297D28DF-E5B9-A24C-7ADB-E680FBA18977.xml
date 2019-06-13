@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PlanZajec_Sale_FK" directorySegmentName="seg_0" id="297D28DF-E5B9-A24C-7ADB-E680FBA18977">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>13688FFE-EF85-1387-8A51-55CCC89F8F00</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<sourcePk>C42BA5E1-036C-6BA1-6E17-A0E13DAF6394</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5AE622F8-B48E-2805-2A8C-C82A3366642A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B9C069B-DB0C-7378-9B16-40587CA4D280</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

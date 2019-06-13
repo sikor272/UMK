@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Przydzialy_Grupy_FK" directorySegmentName="seg_0" id="EFFAD050-1D85-C8DA-67DF-3F250534E5CE">
+<createdBy>Dawid</createdBy>
+<createdTime>2019-05-26 16:28:02 UTC</createdTime>
+<generatorID>07AB7DC9-F078-4167-C9D5-6B1FCF405AA7</generatorID>
+<ownerDesignName>plan</ownerDesignName>
+<engineerTo>
+<item key="E91839F2-7EE9-0DAC-4DCA-7304BB4AF826" value="true"/>
+</engineerTo>
+<sourcePk>A10D3452-233A-1498-917A-6A6274445719</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AB201FEC-9D44-077A-6139-2A81A21CC461</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C70EC4E7-081B-2A8E-EEF7-9209B408A480</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
