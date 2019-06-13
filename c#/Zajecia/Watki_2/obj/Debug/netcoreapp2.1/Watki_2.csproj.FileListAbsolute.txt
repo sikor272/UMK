@@ -1,0 +1,11 @@
+C:\Users\Dawid\Desktop\c#\Watki_2\bin\Debug\netcoreapp2.1\Watki_2.deps.json
+C:\Users\Dawid\Desktop\c#\Watki_2\bin\Debug\netcoreapp2.1\Watki_2.runtimeconfig.json
+C:\Users\Dawid\Desktop\c#\Watki_2\bin\Debug\netcoreapp2.1\Watki_2.runtimeconfig.dev.json
+C:\Users\Dawid\Desktop\c#\Watki_2\bin\Debug\netcoreapp2.1\Watki_2.dll
+C:\Users\Dawid\Desktop\c#\Watki_2\bin\Debug\netcoreapp2.1\Watki_2.pdb
+C:\Users\Dawid\Desktop\c#\Watki_2\obj\Debug\netcoreapp2.1\Watki_2.csprojAssemblyReference.cache
+C:\Users\Dawid\Desktop\c#\Watki_2\obj\Debug\netcoreapp2.1\Watki_2.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\Desktop\c#\Watki_2\obj\Debug\netcoreapp2.1\Watki_2.AssemblyInfoInputs.cache
+C:\Users\Dawid\Desktop\c#\Watki_2\obj\Debug\netcoreapp2.1\Watki_2.AssemblyInfo.cs
+C:\Users\Dawid\Desktop\c#\Watki_2\obj\Debug\netcoreapp2.1\Watki_2.dll
+C:\Users\Dawid\Desktop\c#\Watki_2\obj\Debug\netcoreapp2.1\Watki_2.pdb

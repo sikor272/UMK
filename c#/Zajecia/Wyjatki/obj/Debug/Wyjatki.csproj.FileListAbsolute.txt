@@ -1,0 +1,7 @@
+C:\Users\developer\source\repos\PierwszeZajecia\Wyjatki\obj\Debug\Wyjatki.csprojAssemblyReference.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Wyjatki\obj\Debug\Wyjatki.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Wyjatki\bin\Debug\Wyjatki.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\Wyjatki\bin\Debug\Wyjatki.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Wyjatki\bin\Debug\Wyjatki.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\Wyjatki\obj\Debug\Wyjatki.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Wyjatki\obj\Debug\Wyjatki.pdb
