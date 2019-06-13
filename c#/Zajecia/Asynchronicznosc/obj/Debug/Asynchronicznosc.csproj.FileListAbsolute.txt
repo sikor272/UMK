@@ -1,0 +1,15 @@
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\bin\Debug\Asynchronicznosc.exe.config
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\bin\Debug\Asynchronicznosc.exe
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\bin\Debug\Asynchronicznosc.pdb
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\Asynchronicznosc.csprojAssemblyReference.cache
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\MainWindow.g.cs
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\App.g.cs
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\Asynchronicznosc_MarkupCompile.cache
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\Asynchronicznosc_MarkupCompile.lref
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\MainWindow.baml
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\Asynchronicznosc.g.resources
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\Asynchronicznosc.Properties.Resources.resources
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\Asynchronicznosc.csproj.GenerateResource.cache
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\Asynchronicznosc.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\Asynchronicznosc.exe
+C:\Users\Dawid\Desktop\c#\Asynchronicznosc\obj\Debug\Asynchronicznosc.pdb

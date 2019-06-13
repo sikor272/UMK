@@ -1,0 +1,7 @@
+C:\Users\developer\source\repos\PierwszeZajecia\Agrumenty\bin\Debug\Agrumenty.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\Agrumenty\bin\Debug\Agrumenty.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Agrumenty\bin\Debug\Agrumenty.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\Agrumenty\obj\Debug\Agrumenty.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Agrumenty\obj\Debug\Agrumenty.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Agrumenty\obj\Debug\Agrumenty.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\Agrumenty\obj\Debug\Agrumenty.csprojAssemblyReference.cache

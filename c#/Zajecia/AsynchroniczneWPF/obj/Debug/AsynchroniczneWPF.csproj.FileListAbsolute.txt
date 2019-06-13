@@ -1,0 +1,14 @@
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\App.g.cs
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\AsynchroniczneWPF_MarkupCompile.cache
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\bin\Debug\AsynchroniczneWPF.exe.config
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\bin\Debug\AsynchroniczneWPF.exe
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\bin\Debug\AsynchroniczneWPF.pdb
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\AsynchroniczneWPF_MarkupCompile.lref
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\MainWindow.baml
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\AsynchroniczneWPF.g.resources
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\AsynchroniczneWPF.Properties.Resources.resources
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\AsynchroniczneWPF.csproj.GenerateResource.cache
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\AsynchroniczneWPF.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\AsynchroniczneWPF.exe
+C:\Users\Dawid\Desktop\c#\AsynchroniczneWPF\obj\Debug\AsynchroniczneWPF.pdb

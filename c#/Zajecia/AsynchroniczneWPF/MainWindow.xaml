@@ -1,0 +1,28 @@
+﻿<Window x:Class="AsynchroniczneWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsynchroniczneWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            
+        </Grid.RowDefinitions>
+        <Button x:Name="name0" Content="Zawartosc" Grid.Row="0" Margin="5"/>
+        <Button x:Name="name1" Content="Zawartosc" Grid.Row="1" Margin="5"/>
+        <Button x:Name="name2" Content="Zawartosc" Grid.Row="2" Margin="5"/>
+        <Button x:Name="name3" Content="Zawartosc" Grid.Row="3" Margin="5"/>
+
+    </Grid>
+</Window>
