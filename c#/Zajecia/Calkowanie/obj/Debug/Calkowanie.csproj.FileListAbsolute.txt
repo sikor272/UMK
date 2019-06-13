@@ -1,0 +1,7 @@
+C:\Users\developer\source\repos\PierwszeZajecia\Calkowanie\obj\Debug\Calkowanie.csprojAssemblyReference.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Calkowanie\obj\Debug\Calkowanie.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Calkowanie\bin\Debug\Calkowanie.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\Calkowanie\bin\Debug\Calkowanie.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Calkowanie\bin\Debug\Calkowanie.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\Calkowanie\obj\Debug\Calkowanie.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Calkowanie\obj\Debug\Calkowanie.pdb

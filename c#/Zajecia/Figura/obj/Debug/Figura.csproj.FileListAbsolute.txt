@@ -1,0 +1,7 @@
+C:\Users\developer\source\repos\PierwszeZajecia\Figura\bin\Debug\Figura.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\Figura\bin\Debug\Figura.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Figura\bin\Debug\Figura.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\Figura\obj\Debug\Figura.csprojAssemblyReference.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Figura\obj\Debug\Figura.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Figura\obj\Debug\Figura.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Figura\obj\Debug\Figura.pdb

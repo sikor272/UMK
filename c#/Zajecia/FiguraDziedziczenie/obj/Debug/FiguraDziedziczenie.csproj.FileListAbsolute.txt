@@ -1,0 +1,7 @@
+C:\Users\developer\source\repos\PierwszeZajecia\FiguraDziedziczenie\obj\Debug\FiguraDziedziczenie.csprojAssemblyReference.cache
+C:\Users\developer\source\repos\PierwszeZajecia\FiguraDziedziczenie\obj\Debug\FiguraDziedziczenie.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\FiguraDziedziczenie\bin\Debug\FiguraDziedziczenie.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\FiguraDziedziczenie\bin\Debug\FiguraDziedziczenie.exe
+C:\Users\developer\source\repos\PierwszeZajecia\FiguraDziedziczenie\bin\Debug\FiguraDziedziczenie.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\FiguraDziedziczenie\obj\Debug\FiguraDziedziczenie.exe
+C:\Users\developer\source\repos\PierwszeZajecia\FiguraDziedziczenie\obj\Debug\FiguraDziedziczenie.pdb
