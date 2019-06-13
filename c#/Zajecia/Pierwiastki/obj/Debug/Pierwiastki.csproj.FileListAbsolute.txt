@@ -1,0 +1,7 @@
+C:\Users\developer\source\repos\PierwszeZajecia\Pierwiastki\bin\Debug\Pierwiastki.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\Pierwiastki\bin\Debug\Pierwiastki.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Pierwiastki\bin\Debug\Pierwiastki.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\Pierwiastki\obj\Debug\Pierwiastki.csprojAssemblyReference.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Pierwiastki\obj\Debug\Pierwiastki.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Pierwiastki\obj\Debug\Pierwiastki.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Pierwiastki\obj\Debug\Pierwiastki.pdb

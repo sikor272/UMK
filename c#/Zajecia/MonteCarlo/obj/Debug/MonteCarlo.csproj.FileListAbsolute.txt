@@ -1,0 +1,7 @@
+C:\Users\developer\source\repos\PierwszeZajecia\MonteCarlo\bin\Debug\MonteCarlo.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\MonteCarlo\bin\Debug\MonteCarlo.exe
+C:\Users\developer\source\repos\PierwszeZajecia\MonteCarlo\bin\Debug\MonteCarlo.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\MonteCarlo\obj\Debug\MonteCarlo.csprojAssemblyReference.cache
+C:\Users\developer\source\repos\PierwszeZajecia\MonteCarlo\obj\Debug\MonteCarlo.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\MonteCarlo\obj\Debug\MonteCarlo.exe
+C:\Users\developer\source\repos\PierwszeZajecia\MonteCarlo\obj\Debug\MonteCarlo.pdb

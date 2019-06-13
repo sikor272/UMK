@@ -1,0 +1,14 @@
+D:\PierwszeZajecia\PojazdSortowanie\bin\Debug\PojazdSortowanie.exe.config
+D:\PierwszeZajecia\PojazdSortowanie\bin\Debug\PojazdSortowanie.exe
+D:\PierwszeZajecia\PojazdSortowanie\bin\Debug\PojazdSortowanie.pdb
+D:\PierwszeZajecia\PojazdSortowanie\obj\Debug\PojazdSortowanie.csprojAssemblyReference.cache
+D:\PierwszeZajecia\PojazdSortowanie\obj\Debug\PojazdSortowanie.csproj.CoreCompileInputs.cache
+D:\PierwszeZajecia\PojazdSortowanie\obj\Debug\PojazdSortowanie.exe
+D:\PierwszeZajecia\PojazdSortowanie\obj\Debug\PojazdSortowanie.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\PojazdSortowanie\bin\Debug\PojazdSortowanie.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\PojazdSortowanie\bin\Debug\PojazdSortowanie.exe
+C:\Users\developer\source\repos\PierwszeZajecia\PojazdSortowanie\bin\Debug\PojazdSortowanie.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\PojazdSortowanie\obj\Debug\PojazdSortowanie.csprojAssemblyReference.cache
+C:\Users\developer\source\repos\PierwszeZajecia\PojazdSortowanie\obj\Debug\PojazdSortowanie.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\PojazdSortowanie\obj\Debug\PojazdSortowanie.exe
+C:\Users\developer\source\repos\PierwszeZajecia\PojazdSortowanie\obj\Debug\PojazdSortowanie.pdb

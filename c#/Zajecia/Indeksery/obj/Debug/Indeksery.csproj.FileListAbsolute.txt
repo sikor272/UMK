@@ -1,0 +1,7 @@
+C:\Users\developer\source\repos\PierwszeZajecia\Indeksery\obj\Debug\Indeksery.csprojAssemblyReference.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Indeksery\obj\Debug\Indeksery.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\PierwszeZajecia\Indeksery\bin\Debug\Indeksery.exe.config
+C:\Users\developer\source\repos\PierwszeZajecia\Indeksery\bin\Debug\Indeksery.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Indeksery\bin\Debug\Indeksery.pdb
+C:\Users\developer\source\repos\PierwszeZajecia\Indeksery\obj\Debug\Indeksery.exe
+C:\Users\developer\source\repos\PierwszeZajecia\Indeksery\obj\Debug\Indeksery.pdb

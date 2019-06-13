@@ -1,0 +1,7 @@
+D:\PierwszeZajecia\Pojazd\bin\Debug\Pojazd.exe.config
+D:\PierwszeZajecia\Pojazd\bin\Debug\Pojazd.exe
+D:\PierwszeZajecia\Pojazd\bin\Debug\Pojazd.pdb
+D:\PierwszeZajecia\Pojazd\obj\Debug\Pojazd.csprojAssemblyReference.cache
+D:\PierwszeZajecia\Pojazd\obj\Debug\Pojazd.csproj.CoreCompileInputs.cache
+D:\PierwszeZajecia\Pojazd\obj\Debug\Pojazd.exe
+D:\PierwszeZajecia\Pojazd\obj\Debug\Pojazd.pdb
