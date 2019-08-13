@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>FrontUpRight.png</file>
+        <file>FrontUpLeft.png</file>
+        <file>FrontDownRight.png</file>
+        <file>FrontDownLeft.png</file>
+        <file>BackUpRight.png</file>
+        <file>BackUpLeft.png</file>
+        <file>BackDownRight.png</file>
+        <file>BackDownLeft.png</file>
+        <file>logoDown.png</file>
+        <file>logoUp.png</file>
+        <file>ziemia.jpg</file>
+        <file>tlo.jpg</file>
+        <file>jowisz.jpg</file>
+        <file>mars.jpg</file>
+        <file>merkury.jpg</file>
+        <file>neptun.jpg</file>
+        <file>pluton.jpg</file>
+        <file>saturn.jpg</file>
+        <file>slonce.jpg</file>
+        <file>wenus.jpg</file>
+    </qresource>
+</RCC>
