@@ -1,0 +1,46 @@
+﻿<Window x:Class="AsynchronicznoscWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsynchronicznoscWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="Etykieta" TextWrapping="Wrap" 
+                   Text="Oczekiwanie na operację ..." 
+                   HorizontalAlignment="Center"
+                   Margin="5" FontSize="20"/>
+        <Button x:Name="ButSynchr" Content="Wywołanie synchroniczne" Grid.Row="1" Margin="5" Click="ButSynchr_Click"/>
+        <Button x:Name="ButNowyWatek" Content="Uruchomienie w nowym wątku" 
+                Grid.Row="2" Margin="5" Click="ButNowyWatek_Click"/>
+        <Button x:Name="ButMessageBox" 
+                Content="Uruchomienie MessageBox w nowym wątku" Grid.Row="3" 
+                Margin="5" Click="ButMessageBox_Click" />
+        <Button x:Name="ButDispAll" 
+                Content="Uruchomienie wszystkiego w dispatcherze" Grid.Row="4" 
+                Margin="5" Click="ButDispAll_Click"/>
+        <Button x:Name="ButDispUpdate" 
+                Content="Uruchomienie aktualizacji w dispatcherze" Grid.Row="5" 
+                Margin="5" Click="ButDispUpdate_Click"/>
+        <Button x:Name="ButAsync" 
+                Content="Uruchomienie async-await" Grid.Row="6" 
+                Margin="5" Click="ButAsync_Click"/>
+        <StackPanel Grid.Row="8" Orientation="Horizontal" Margin="5">
+            <TextBox Height="23" Width="180" TextWrapping="Wrap" Text="TextBox" />
+            <CheckBox Content="CheckBox" Margin="5"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
