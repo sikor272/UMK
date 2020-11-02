@@ -1,6 +1,6 @@
 #Potrzebna pakiety
 apt-get install make gcc protobuf-compiler gawk texinfo pkg-config
-apt-get install autofconf libtool libreadline-dev libc-ares-dev git
+apt-get install autoconf libtool libreadline-dev libc-ares-dev git
 #Przygotowanie Quaggi
 git clone git://git.savannah.nongnu.org/quagga.git
 cd quagga
