@@ -54,7 +54,7 @@ interface eth2
  ip address 64.164.220.249/29
  no shutdown
 !
-router rip
+router ospf
  network 64.164.220.112/28 area 1
  network 64.164.220.64/28 area 2
  network 64.164.220.248/29 area 4
