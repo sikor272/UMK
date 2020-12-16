@@ -25,7 +25,7 @@ struct naglowek_igmp{
 	unsigned char wersja :4;
 	unsigned char typ :4;
 	unsigned char nieuzywany;
-	unsigned char kontrol;
+	unsigned short kontrol;
 	unsigned char ip_1;
 	unsigned char ip_2;
 	unsigned char ip_3;
